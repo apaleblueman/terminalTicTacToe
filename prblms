@@ -1,7 +1,7 @@
 problems to solve
 
 1. restart game when user loses or wins -- SOLVED using a reset funtion upon winnig or losing (return value of 1) 
-2. hold onto player's move if invalid input box  ----SOLVED with recursion
+2. hold onto player's move if invalid input box  ----TRIED solving with recursion but since recursion calls to same invalid buffer of stdin in prlbm 8 ;recursion wont work here so instead SOLVED with a while loop in getInput function along with help of SOLn 8 and break statement to break out of while loop if input is valid and filled in the box!
 3. winning player move is pushed in new game as first move - SOLVED logical error in array size allocated in reset function 
 4. Create a draw mechanism that draws the game if all moves are completed but no one wins- SOLVED by creating a function that check if all boxes are filled or not and then a else if statement in winorlose function that uses returned value from box function to determine a Draw
 5. out of range input detection needs to be fixed - SOLVED by changing placement of "return 1" statement in 
