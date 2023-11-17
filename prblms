@@ -1,0 +1,10 @@
+problems to solve
+
+1. restart game when user loses or wins -- SOLVED using a reset funtion upon winnig or losing (return value of 1) 
+2. hold onto player's move if invalid input box  ----SOLVED with recursion
+3. winning player move is pushed in new game as first move - SOLVED logical error in array size allocated in reset function 
+4. Create a draw mechanism that draws the game if all moves are completed but no one wins- SOLVED by creating a function that check if all boxes are filled or not and then a else if statement in winorlose function that uses returned value from box function to determine a Draw
+5. out of range input detection needs to be fixed - SOLVED by changing placement of "return 1" statement in 
+6. Player's winning move not displaying in the board grid- SOLVED by displaying board once before resetting it! 
+7. Display box numbers for refrence - SOLVED done
+8. fix character loop issue - SOLVED using custom fflush function that clears input buffer of stdin
